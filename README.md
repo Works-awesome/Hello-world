@@ -1,4 +1,4 @@
-# Iphonefunda
+#Hello-world
 tutoricals series
 Hello World! Build Your First iPhone App
 You may have heard of “Hello World” program if you have read any programming book before. It has become the traditional program for first-time learner to create. It’s a very simple program that usually outputs “Hello, World” on the display of a device. In this tutorial, let’s follow the programming tradition and create a “Hello World” app using Xcode. Despite its simplicity, the “Hello World” program serves a few purposes:
