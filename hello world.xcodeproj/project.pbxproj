@@ -18,6 +18,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DC209DC71D87D8BB0085B531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC209DC11D87D8BB0085B531 /* SimpleTableViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC209D8B1D87D35F0085B531;
+			remoteInfo = SimpleTableViewDemo;
+		};
+		DC209DC91D87D8BB0085B531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC209DC11D87D8BB0085B531 /* SimpleTableViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC209DA41D87D3600085B531;
+			remoteInfo = SimpleTableViewDemoTests;
+		};
+		DC209DCB1D87D8BB0085B531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC209DC11D87D8BB0085B531 /* SimpleTableViewDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC209DAF1D87D3600085B531;
+			remoteInfo = SimpleTableViewDemoUITests;
+		};
 		DC314F851D866B9E0083FD38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC314F631D866B9D0083FD38 /* Project object */;
@@ -35,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC209DC11D87D8BB0085B531 /* SimpleTableViewDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleTableViewDemo.xcodeproj; path = ../../Desktop/SimpleTableViewDemo/SimpleTableViewDemo.xcodeproj; sourceTree = "<group>"; };
 		DC314F6B1D866B9D0083FD38 /* hello world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC314F6F1D866B9D0083FD38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC314F711D866B9D0083FD38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,9 +100,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC209DC21D87D8BB0085B531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC209DC81D87D8BB0085B531 /* SimpleTableViewDemo.app */,
+				DC209DCA1D87D8BB0085B531 /* SimpleTableViewDemoTests.xctest */,
+				DC209DCC1D87D8BB0085B531 /* SimpleTableViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		DC314F621D866B9D0083FD38 = {
 			isa = PBXGroup;
 			children = (
+				DC209DC11D87D8BB0085B531 /* SimpleTableViewDemo.xcodeproj */,
 				DC314F6D1D866B9D0083FD38 /* hello world */,
 				DC314F871D866B9E0083FD38 /* hello worldTests */,
 				DC314F921D866B9E0083FD38 /* hello worldUITests */,
@@ -229,6 +262,12 @@
 			mainGroup = DC314F621D866B9D0083FD38;
 			productRefGroup = DC314F6C1D866B9D0083FD38 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DC209DC21D87D8BB0085B531 /* Products */;
+					ProjectRef = DC209DC11D87D8BB0085B531 /* SimpleTableViewDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DC314F6A1D866B9D0083FD38 /* hello world */,
@@ -237,6 +276,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DC209DC81D87D8BB0085B531 /* SimpleTableViewDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SimpleTableViewDemo.app;
+			remoteRef = DC209DC71D87D8BB0085B531 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC209DCA1D87D8BB0085B531 /* SimpleTableViewDemoTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SimpleTableViewDemoTests.xctest;
+			remoteRef = DC209DC91D87D8BB0085B531 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC209DCC1D87D8BB0085B531 /* SimpleTableViewDemoUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SimpleTableViewDemoUITests.xctest;
+			remoteRef = DC209DCB1D87D8BB0085B531 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DC314F691D866B9D0083FD38 /* Resources */ = {
@@ -496,6 +559,7 @@
 				DC314F9A1D866B9E0083FD38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC314F9B1D866B9E0083FD38 /* Build configuration list for PBXNativeTarget "hello worldTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +568,7 @@
 				DC314F9D1D866B9E0083FD38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC314F9E1D866B9E0083FD38 /* Build configuration list for PBXNativeTarget "hello worldUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +577,7 @@
 				DC314FA01D866B9E0083FD38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
